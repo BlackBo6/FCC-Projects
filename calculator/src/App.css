@@ -1,0 +1,59 @@
+body {
+    background-color: #BBA0CA;
+}
+
+.calculator-body {
+    margin-left: 40vw;
+    margin-top: 30vh;
+}
+
+.display {
+    margin-left: 20px;
+}
+
+#clear {
+    width: 165px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 4px;
+}
+
+#clear:hover {
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+
+button {
+    width: 55px;
+    height: 50px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 4px;
+}
+
+button:hover {
+    transform: translateY(1.5px);
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+#equals {
+    width: 110px;
+}
+
+#equals:hover {
+    background-color: green;
+}
+
+#divide,
+#add,
+#substract,
+#multiply {
+    background-color: rgb(88, 88, 88);
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
